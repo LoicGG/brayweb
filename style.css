@@ -1,38 +1,36 @@
 *,
-html {
-    background-color: rgb(25, 200, 150);
-}
-
+html,
 body {
-    display: block;
+    background-color: rgb(25, 200, 150);
+    margin: 0;
+    padding: 0;
 }
 
-.hero1 {
-    top: 0;
-    margin: auto;
-    width: 95vw;
-    height: 95vh;
-    border: 2px solid black;
-    text-align: center;
-    justify-content: center;
+.hero {
     display: flex;
-    align-items: center; /*needs display:flex*/
+    position: relative;
+    top: 40px;
+    height: 200px;
+    width: 80vw;
     font-family: Tourney;
-    font-size: 20vw;
+    font-size: 5vw;
     color: aquamarine;
+    overflow: hidden;
+    /*||*/
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
 }
 
-.hero2 {
-    top: 0;
-    margin: auto;
-    width: 95vw;
+.videoConteneur {
+    width: 100%;
     height: auto;
-    border: 2px solid black;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    align-items: center; /*needs display:flex*/
-    font-family: Tourney;
-    font-size: 20vw;
-    color: aquamarine;
+}
+
+video {
+    width: 60vw;
+    margin: auto;
+    display: block;
+    position: absolute;
 }
