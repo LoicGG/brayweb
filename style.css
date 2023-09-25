@@ -4,17 +4,35 @@ html {
 }
 
 body {
-    display: flex;
+    display: block;
 }
 
-
-.hero {
+.hero1 {
+    top: 0;
     margin: auto;
     width: 95vw;
-    height: 70vh;
+    height: 95vh;
     border: 2px solid black;
     text-align: center;
     justify-content: center;
     display: flex;
     align-items: center; /*needs display:flex*/
+    font-family: Tourney;
+    font-size: 20vw;
+    color: aquamarine;
+}
+
+.hero2 {
+    top: 0;
+    margin: auto;
+    width: 95vw;
+    height: auto;
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center; /*needs display:flex*/
+    font-family: Tourney;
+    font-size: 20vw;
+    color: aquamarine;
 }
