@@ -5,7 +5,10 @@ body {
     font-size: 16px;
 }
 
-
+a {
+    text-decoration: none;
+    color: black;
+}
 
 h1 {
     font-family: 'Croissant One';
@@ -66,5 +69,15 @@ to {background-position: -100px 0px;background-size:2750px;}
 
 .projet {
     text-align: center;
-
+    border: 1px solid black;
+    /**/
+    height: 10vh;
+    width: 20vw;
+    margin: auto;
+    justify-content: center;
 }
+
+
+
+
+
