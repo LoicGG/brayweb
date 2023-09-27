@@ -5,6 +5,27 @@ body {
     font-size: 16px;
 }
 
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Carter One', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Croissant One', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Dela Gothic One', cursive;
+font-family: 'Fuggles', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Handjet', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Meddon', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Skranji', cursive;
+font-family: 'Tektur', cursive;
+font-family: 'Tourney', cursive; */
+
+
+
+
 a {
     text-decoration: none;
     color: black;
@@ -17,9 +38,9 @@ h1 {
 }
   
 h2 {
-    font-family: Carter One;
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
+    font-family: 'Tektur', cursive;
+    font-size: 1rem;
+    color: rgb(45, 150, 70);
     text-align: center;
 }
 .hero {
@@ -38,7 +59,7 @@ h2 {
     font-size: 7vw;
     background-color: rgb(20, 20, 20);
     /**/
-    border: 6px solid aqua;
+    border: 6px solid rgb(45, 150, 70);
     /**/
     background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
     background-size:cover;
@@ -69,12 +90,18 @@ to {background-position: -100px 0px;background-size:2750px;}
 
 .projet {
     text-align: center;
+    font-size: 1rem;
+    color: rgba(0,0,0,.25);
     border: 1px solid black;
     /**/
-    height: 10vh;
-    width: 20vw;
+    height: auto;
+    width: 40%;
     margin: auto;
     justify-content: center;
+    background-image: url(img/Capture\ d’écran\ 2023-09-27\ à\ 00.46.08.png);
+    background-position:top;
+    background-size:cover;
+    
 }
 
 
