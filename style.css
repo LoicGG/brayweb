@@ -166,6 +166,21 @@ to {background-position: -100px 0px;background-size:2750px;}
     background-size:cover;
     content:"";
 }
+.projet2 {
+  text-align: center;
+  font-size: 1rem;
+  color: rgba(0,0,0,.25);
+  border: 1px solid black;
+  /**/
+  height: 120px;
+  width: 40%;
+  margin: auto;
+  justify-content: center;
+  background-image: url(img/Capture\ d’écran\ 2023-09-29\ à\ 00.37.50.png);
+  background-position:top;
+  background-size:cover;
+  content:"";
+}
 
 
 
